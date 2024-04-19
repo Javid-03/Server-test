@@ -19,7 +19,6 @@ jobs:
           script: |
             sudo apt-get update
             sudo apt-get install -y python3-pip
-            pip3 install fastapi uvicorn
             cd ./Server-test # change directory to your working repo
             pip install -r requirements.txt
             git pull origin main
